@@ -1,0 +1,8 @@
+<% if (data) { %>
+	<h2>We got data.</h2>
+	<% for(var d in data) { %>
+		<p>
+		<%= data[d].full_name %>
+		</p>
+	<% } %>
+<% } %>
